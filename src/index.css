@@ -35,7 +35,7 @@ footer {
   @apply text-center py-10 bg-gray-900 text-white mt-20;
 }
 .bg-custom {
-  background: url('C:/Users/ACER/Downloads/background.png') no-repeat center center fixed;
+  background: url('../public/background.png') no-repeat center center fixed;
   background-size: cover;
 }
 
