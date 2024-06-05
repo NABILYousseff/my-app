@@ -1,5 +1,7 @@
 {
+  
   "hostname": "http://NABILYousseff.github.io/my-app",
+  "homepage": ".",
   "name": "my-cv-app",
   "version": "0.1.0",
   "private": true,
