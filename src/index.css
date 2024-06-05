@@ -3,7 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+
 body {
+ 
+  background-color: #f8f9fa;
   font-family: 'Roboto Mono', monospace; /* Use Roboto Mono font */
   @apply text-light bg-dark pt-16;
 }

@@ -5,6 +5,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      padding :{
+        '500px': '500px',
+      },
       colors: {
         accent: '#f39c12', // Example accent color
         light: '#f5f5f5',  // Light color for text

@@ -1,6 +1,9 @@
-// src/App.tsx
-
 import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
+import './index.css';
+import Cv from './screens/cv';
+import Formulaire from './screens/formulaire';
+
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -12,18 +15,15 @@ import Contact from './components/Contact';
 
 const App: React.FC = () => {
   return (
-    <div className="font-sans bg-custom min-h-screen">
-      <Header />
-      <div className="pt-16">
-        <Hero />
-        <About />
-        <Experience />
-        <Education />
-        <Skills />
-        <Languages />
-        <Contact />
+    <Router>
+      <div className="route">
+        <Routes>
+          <Route path="/" element={<Cv />} />
+          <Route path="/formulaire" element={<Formulaire />} />
+          <Route path="*" element={<Navigate to="/" />} /> {/* Handle unmatched routes */}
+        </Routes>
       </div>
-    </div>
+    </Router>
   );
 };
 

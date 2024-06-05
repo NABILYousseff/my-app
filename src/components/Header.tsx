@@ -3,7 +3,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-
+import { Link } from 'react-router-dom';
 const Header: React.FC = () => {
   return (
     <header className="bg-gray-800 text-white p-4 shadow-lg fixed top-0 w-full z-10 transition-all duration-300">
@@ -11,6 +11,9 @@ const Header: React.FC = () => {
         <h1 className="text-xl font-bold">My Portfolio</h1>
         <nav>
           <ul className="flex space-x-4 items-center">
+          <Link to="/formulaire">
+          <button className="hover:text-gray-400 transition-colors duration-300">Form</button>
+        </Link>
             <li><a href="#about" className="hover:text-gray-400 transition-colors duration-300">About</a></li>
             <li><a href="#experience" className="hover:text-gray-400 transition-colors duration-300">Experience</a></li>
             <li><a href="#education" className="hover:text-gray-400 transition-colors duration-300">Education</a></li>
