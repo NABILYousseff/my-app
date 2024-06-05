@@ -1,29 +1,16 @@
-// src/components/Header.tsx
-
+// src/components/Contact.tsx
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 
-const Header: React.FC = () => {
+const Contact: React.FC = () => {
   return (
-    <header className="bg-gray-800 text-white p-4 shadow-lg">
-      <div className="container mx-auto flex justify-between items-center">
-        <h1 className="text-xl font-bold">My Portfolio</h1>
-        <nav>
-          <ul className="flex space-x-4 items-center">
-            <li><a href="#about" className="hover:text-gray-400">About</a></li>
-            <li><a href="#experience" className="hover:text-gray-400">Experience</a></li>
-            <li><a href="#education" className="hover:text-gray-400">Education</a></li>
-            <li><a href="#skills" className="hover:text-gray-400">Skills</a></li>
-            <li><a href="#languages" className="hover:text-gray-400">Languages</a></li>
-            <li><a href="#contact" className="hover:text-gray-400">Contact</a></li>
-            <li><a href="https://www.linkedin.com/in/youssef-nabil-511a77252/" target="_blank" className="hover:text-gray-400"><FontAwesomeIcon icon={faLinkedin} /></a></li>
-            <li><a href="https://github.com/NABILYousseff" target="_blank" className="hover:text-gray-400"><FontAwesomeIcon icon={faGithub} /></a></li>
-          </ul>
-        </nav>
+    <section id="contact" className="py-20 text-center">
+      <div className="container mx-auto">
+        <h2 className="text-3xl font-bold mb-4">Contact</h2>
+        <p className="text-lg mb-8">Get in touch with me via email: <a href="mailto:youssefnabil78@gmail.com" className="text-blue-600 hover:underline">youssefnabil78@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/youssef-nabil-511a77252/" target="_blank" rel="noopener noreferrer" className="bg-blue-600 py-2 px-4 rounded text-white hover:bg-blue-700">Connect on LinkedIn</a>
       </div>
-    </header>
+    </section>
   );
 };
 
-export default Header;
+export default Contact;
