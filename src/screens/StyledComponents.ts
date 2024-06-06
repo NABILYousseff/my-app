@@ -48,6 +48,7 @@ export const Input = styled.input`
   width: 100%;
   padding: 1rem; /* Increase the padding */
   font-size: 1rem;
+  color: ${props => props.theme.colors.dark};
   border: 1px solid ${props => props.theme.colors.secondary};
   border-radius: 5px;
   outline: none;
@@ -62,15 +63,18 @@ export const Input = styled.input`
 export const RadioGroup = styled.div`
   display: flex;
   gap: 1rem;
+  color: ${props => props.theme.colors.dark};
 `;
 
 export const RadioLabel = styled.label`
   display: flex;
   align-items: center;
+  color: ${props => props.theme.colors.dark};
 `;
 
 export const RadioInput = styled.input`
   margin-right: 0.5rem;
+  color: ${props => props.theme.colors.dark};
 `;
 
 export const ErrorMessage = styled.p`
