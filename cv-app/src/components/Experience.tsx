@@ -9,7 +9,7 @@ const Experience: React.FC = () => {
       <h2 className="text-3xl font-bold mb-4 text-orange-500">Professional Experience</h2>
       <div className="flex justify-between items-center">
         <div className="w-full text-center mb-4">
-          <strong>Implementation d’un SOC et Penetests </strong>
+          <strong>Implementation d’un SOC et Pentests </strong>
           <p>Stage d’ingénieur au Centre National de Recherche Scientifique et Technique à Rabat, Maroc</p>
         </div>
         <div className="w-full text-center mb-4">
