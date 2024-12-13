@@ -9,9 +9,10 @@ const Education: React.FC = () => {
         <h2 className="text-4xl font-heading font-bold mb-6 text-accent text-center">Education</h2>
         <ul className="text-black space-y-4">
           <li>2024 (en cours) : Cycle d’ingénieur en 2ème année à Télécom SudParis -- Cisco CyberOps -- Cisco Certified Network Associate (CCNA)</li>
-          <li>2022-2024: Cycle d’ingénieur en génie électrique | École Mohammadia des Ingénieurs</li>
-          <li>2020-2022: Classes préparatoires aux grandes écoles | Lycée Ibn Timiya</li>
-          <li>2019-2020: Baccalauréat international | Lycée Zerktouni - Option Science Physique</li>
+          <li>Eté 2024 : Formation Cisco Network Security SummerCamp</li>
+          <li>2022-2024  --  Rabat, Maroc: Cycle d’ingénieur en génie électrique -  Option Réseaux et Télécom | École Mohammadia des Ingénieurs </li>
+          <li>2020-2022  --  Marrakech, Maroc: Classes préparatoires aux grandes écoles | Lycée Ibn Timiya </li>
+          <li>2019-2020  --  Marrakech, Maroc: Baccalauréat international | Lycée Zerktouni - Option Science Physique</li>
         </ul>
       </div>
     </section>

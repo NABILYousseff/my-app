@@ -8,8 +8,7 @@ const About: React.FC = () => {
       <div className="container mx-auto">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
         <p className="text-lg">
-          Élève ingénieur à l’École Mohammadia d’Ingénieurs en filière des réseaux et
-          télécommunications. Je suis un jeune étudiant curieux, créatif, ambitieux et
+          Élève ingénieur à Télécom SudParis. Je suis un jeune étudiant curieux, créatif, ambitieux et
           flexible, cherchant l’excellence dans le domaine académique et la réussite
           dans le domaine professionnel avec patience et optimisme en exploitant mes
           compétences théoriques et pratiques, tout en gardant l’esprit zen et responsable.

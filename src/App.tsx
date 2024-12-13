@@ -2,8 +2,6 @@ import React from 'react';
 import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 import './index.css';
 import Cv from './screens/cv';
-import Formulaire from './screens/formulaire';
-
 import Header from './components/Header';
 import Hero from './components/Hero';
 import About from './components/About';
@@ -19,7 +17,6 @@ const App: React.FC = () => {
       <div className="route">
         <Routes>
           <Route path="/" element={<Cv />} />
-          <Route path="/formulaire" element={<Formulaire />} />
           <Route path="*" element={<Navigate to="/" />} /> {/* Handle unmatched routes */}
         </Routes>
       </div>

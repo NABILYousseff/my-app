@@ -5,6 +5,8 @@ module.exports = {
   ],
   theme: {
     extend: {
+      scrollBehavior: ['responsive', 'smooth'],
+
       padding :{
         '500px': '500px',
       },
@@ -17,6 +19,7 @@ module.exports = {
         sans: ['Roboto', 'sans-serif'],
         heading: ['Montserrat', 'sans-serif'],
       },
+      
     },
   },
   plugins: [],

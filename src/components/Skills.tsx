@@ -2,7 +2,7 @@
 
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faPython, faJava, faJs, faLinux, faHtml5, faCss3Alt, faPhp } from '@fortawesome/free-brands-svg-icons';
+import { faPython, faJava, faJs, faLinux, faHtml5, faPhp } from '@fortawesome/free-brands-svg-icons';
 import { faNetworkWired } from '@fortawesome/free-solid-svg-icons';
 
 const Skills: React.FC = () => {
@@ -16,7 +16,7 @@ const Skills: React.FC = () => {
             <span>Python</span>
           </li>
           <li className="flex flex-col items-center text-lg">
-            <FontAwesomeIcon icon={faJava} size="3x" className="text-accent mb-2" />
+            <FontAwesomeIcon icon={faJava} size="3x" className="text-black mb-2" />
             <span>Java</span>
           </li>
           <li className="flex flex-col items-center text-lg">
@@ -32,19 +32,18 @@ const Skills: React.FC = () => {
             <span>HTML5</span>
           </li>
           <li className="flex flex-col items-center text-lg">
-            <FontAwesomeIcon icon={faCss3Alt} size="3x" className="text-accent mb-2" />
-            <span>CSS3</span>
-          </li>
-          <li className="flex flex-col items-center text-lg">
             <FontAwesomeIcon icon={faPhp} size="3x" className="text-accent mb-2" />
             <span>PHP</span>
           </li>
           <li className="flex flex-col items-center text-lg">
-            <FontAwesomeIcon icon={faNetworkWired} size="3x" className="text-accent mb-2" />
-            <span>GNS3</span>
+            <FontAwesomeIcon icon={faNetworkWired} size="3x" className="text-black mb-2" />
+            <span>CISCO IOS</span>
           </li>
           <li className = "flex flex-col items-center text-lg">
-          <img src="c.svg" alt="C Icon" className="w-12 h-12 mb-2" />
+          <img src="c.svg" alt="C Icon" className="w-12 h-12 mb-2 filter"   style={{ filter: 'invert (100%) sepia(100%) saturate(400%) hue-rotate(80deg)' }} 
+
+
+ />
           <span>C</span> 
           </li>
         </ul>
