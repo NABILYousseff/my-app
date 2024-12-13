@@ -9,6 +9,7 @@ const Experience: React.FC = () => {
         <h2 className="text-3xl font-bold mb-4">Professional Experience</h2>
         <ul className="text-left">
           <li className="mb-4"><strong>Stage d’observation | MANAGEM</strong>: Maintenance électrique et automatisme industriel.</li>
+          <li className="mb-4"><strong>Stage d’ingénieur au Centre National de Recherche Scientifique et Technique à Rabat, Maroc </strong>:Implementation d’un SOC et Penetests </li>
           <li className="mb-4"><strong>Simulation d’une communication des antennes MIMO</strong>: École Mohammadia d'Ingénieurs.</li>
         </ul>
       </div>

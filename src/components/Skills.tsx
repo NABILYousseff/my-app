@@ -25,7 +25,7 @@ const Skills: React.FC = () => {
           </li>
           <li className="flex flex-col items-center text-lg">
             <FontAwesomeIcon icon={faLinux} size="3x" className="text-accent mb-2" />
-            <span>Linux</span>
+            <span>BASH</span>
           </li>
           <li className="flex flex-col items-center text-lg">
             <FontAwesomeIcon icon={faHtml5} size="3x" className="text-accent mb-2" />
@@ -42,6 +42,10 @@ const Skills: React.FC = () => {
           <li className="flex flex-col items-center text-lg">
             <FontAwesomeIcon icon={faNetworkWired} size="3x" className="text-accent mb-2" />
             <span>GNS3</span>
+          </li>
+          <li className = "flex flex-col items-center text-lg">
+          <img src="c.svg" alt="C Icon" className="w-12 h-12 mb-2" />
+          <span>C</span> 
           </li>
         </ul>
       </div>
